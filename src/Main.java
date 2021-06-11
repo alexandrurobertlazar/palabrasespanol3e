@@ -39,6 +39,7 @@ public class Main {
                 System.out.println("ERROR: '" + s + "' no tiene 3 e.");
                 break;
             }
+            scanner.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
